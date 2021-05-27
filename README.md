@@ -1,5 +1,4 @@
-# Monitor Alert
-
+# Security Center
 
 This module activates Azure Defender for selected resources.
 
