@@ -1,11 +1,10 @@
 module "simple" {
   source = "../../"
 
-  name                = "simple"
-  resource_group_name = "simple-rg"
-  location            = "westeurope"
-
-  short_name = "Short Name"
-
+  location       = "westeurope"
   resource_types = ["AppServices", "KeyVaults", "KubernetesService", "SqlServers", "StorageAccounts", "VirtualMachines"]
+
+  tags = {
+    tag1="security-center"
+  }
 }
