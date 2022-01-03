@@ -12,6 +12,17 @@ module {
 }
 
 inputs {
-  resource_types = ["AppServices", "KeyVaults", "KubernetesService", "SqlServers", "StorageAccounts", "VirtualMachines"]
+  resource_types = [
+    "AppServices", 
+    "KeyVaults", 
+    "SqlServers", 
+    "SqlServerVirtualMachines", 
+    "StorageAccounts", 
+    "VirtualMachines",
+    "Arm",
+    "OpenSourceRelationalDatabases",
+    "Containers",
+    "Dns",
+  ]
 }
 ```
