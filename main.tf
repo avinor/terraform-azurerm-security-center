@@ -17,4 +17,5 @@ resource "azurerm_security_center_subscription_pricing" "sp" {
 
   tier          = "Standard"
   resource_type = each.value
+  ignore_changes = [ extension, subplan ]
 }
